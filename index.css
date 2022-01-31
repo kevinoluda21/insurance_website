@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+.container{
+    background-image: url(./images/hero-cover.3.png);
+    height: 700px;
+    background-size: cover;
+    opacity: 1;
+}
+.container h2{
+    color: white;
+    text-align: center;
+
+}
+.container ul{
+    display: flex;
+    list-style-type: none;
+}
+.container li{
+    padding-left: 30px;
+    float: left;
+    margin-left: 30px;
+}
+.container p{
+    text-align: center;
+}
+.container button{
+    display: flex;
+
+}
